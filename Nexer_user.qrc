@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>fitn_background.jpg</file>
+  </qresource>
+</RCC>

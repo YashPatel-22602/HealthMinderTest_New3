@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="Images_exer">
+    <file>CRUNCHES1.PNG</file>
+    <file>Cycling.jpg</file>
+    <file>LEGRAISES1.PNG</file>
+    <file>PLANK2.PNG</file>
+    <file>PULLUPS2.PNG</file>
+    <file>PUSHUP1.png</file>
+    <file>RUN3.PNG</file>
+    <file>SKIP2.PNG</file>
+    <file>SURYA2.PNG</file>
+    <file>WALK2.PNG</file>
+  </qresource>
+</RCC>

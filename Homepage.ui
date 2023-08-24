@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1198</width>
+    <height>798</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Homepage</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="bkgd_label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/medbk1.png);
+background-image-opacity: 0.33;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_diet">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>29</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>View Diet Plans</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>DIET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_med">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>29</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Add Medicine</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_abt">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>29</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Calculate your BMI</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>BMI Calculator</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_close">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>130</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Logout</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exer">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Add Exercise</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>EXERCISE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_meddata">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>140</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>View your Medicine Plan</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Medicine Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_exerdata">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>140</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>View your Excersie Plan</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(92, 229, 210);
+color:rgb(255,255,255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Excercise data</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>1041</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0)</string>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="user1_page">
+     <widget class="QTableWidget" name="tableWidget_exer">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1021</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Reps</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="user2_page">
+     <widget class="QTableWidget" name="tableWidget_med">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1021</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Days</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="user3_page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Nhomepg.qrc"/>
+ </resources>
+ <connections/>
+</ui>

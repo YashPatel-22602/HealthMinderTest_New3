@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="BMIbg">
+    <file>BMI2.png</file>
+    <file>BMI.jpg</file>
+    <file>BMI.jpg</file>
+  </qresource>
+</RCC>

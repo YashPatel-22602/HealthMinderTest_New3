@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>../../../../../../../../../../Desktop/PYTHON/new/diet_bkgrd1.png</file>
+  </qresource>
+</RCC>

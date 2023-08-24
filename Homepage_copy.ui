@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>798</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1200</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1200</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/Desktop/PYTHON/new/medbk1.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1200</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(129, 253, 255);</string>
+     </property>
+     <widget class="QPushButton" name="btn_exe">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>250</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(161, 214, 255);
+
+border-style:outset;
+border-width:2px;
+border-radius: 10px;
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string>EXERCISE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_med">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>0</y>
+        <width>250</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px;
+background-color: rgb(161, 214, 255);
+
+border-style:outset;
+border-width:2px;
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string>MEDICINE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_diet">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>0</y>
+        <width>250</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(161, 214, 255);
+border-radius: 10px;
+border-style:outset;
+border-width:2px;
+
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string>DIET</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_abtus">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>0</y>
+        <width>250</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(161, 214, 255);
+border-radius: 10px;
+border-style:outset;
+border-width:2px;
+
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string>ABOUT US</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_notify">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>0</y>
+        <width>100</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(161, 214, 255);
+background-image: url(:/newPrefix/Desktop/PYTHON/new/notify.png);
+
+border-style:outset;
+border-width:2px;
+border-radius: 10px;
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_logout">
+      <property name="geometry">
+       <rect>
+        <x>1100</x>
+        <y>0</y>
+        <width>100</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(161, 214, 255);
+background-image: url(:/newPrefix/Desktop/PYTHON/new/logout.PNG);
+border-radius: 10px;
+border-style:outset;
+border-width:2px;
+
+padding:6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../AppData/Local/Programs/Python/Python39/Lib/site-packages/qt5_applications/Qt/bin/test.qrc"/>
+ </resources>
+ <connections/>
+</ui>

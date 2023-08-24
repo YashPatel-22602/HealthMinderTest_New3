@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>logout.png</file>
+    <file>medbk1.png</file>
+  </qresource>
+</RCC>
